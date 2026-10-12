@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Placeholder host. Run `node scripts/set-domain.mjs <domain>` to fill it in. Not referenced from robots.txt until then. -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://FRONT-DOOR-DOMAIN/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://FRONT-DOOR-DOMAIN/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://FRONT-DOOR-DOMAIN/es"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://FRONT-DOOR-DOMAIN/"/>
+  </url>
+  <url>
+    <loc>https://FRONT-DOOR-DOMAIN/es</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://FRONT-DOOR-DOMAIN/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://FRONT-DOOR-DOMAIN/es"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://FRONT-DOOR-DOMAIN/"/>
+  </url>
+  <url><loc>https://FRONT-DOOR-DOMAIN/privacy-policy.html</loc></url>
+  <url><loc>https://FRONT-DOOR-DOMAIN/terms-of-service.html</loc></url>
+</urlset>

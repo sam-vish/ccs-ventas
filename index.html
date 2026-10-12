@@ -1,0 +1,1087 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Used Cars in Orlando, FL | CCS Ventas Cars · Hablamos Español</title>
+<meta name="description" content="Quality used cars, trucks and SUVs on W Landstreet Rd, Orlando. Financing options, GWC warranty plans, and a team that speaks English and Spanish. Call (786) 548-8238.">
+<!-- CANONICAL: add <link rel="canonical" href="https://FRONT-DOOR-DOMAIN/"> once the production domain is decided. Do NOT point it at the DealerCenter site. -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="CCS Ventas Cars">
+<meta property="og:title" content="Used Cars in Orlando · CCS Ventas Cars · Hablamos Español">
+<meta property="og:description" content="Used cars, trucks and SUVs on W Landstreet Rd. Financing options, GWC warranty plans, English y español.">
+<meta property="og:image" content="/og.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#0E1116">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&family=Instrument+Sans:wght@400..700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&family=Instrument+Sans:wght@400..700&display=swap" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&family=Instrument+Sans:wght@400..700&display=swap"></noscript>
+<!-- Hero LCP image: keep in sync with CONFIG.heroImage (remove this line if heroImage is emptied). -->
+<link rel="preload" as="image" href="/hero.jpg" fetchpriority="high">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "AutoDealer",
+  "name": "CCS Ventas Cars LLC",
+  "url": "https://www.ccsventascars.com/",
+  "telephone": "+1-786-548-8238",
+  "email": "ccsventascars@gmail.com",
+  "image": "https://dcdws.blob.core.windows.net/dws-16574564-33945-media/sites/33945/2022/04/202203-e2f551a307e649ea8357040cb118a35d.jpg",
+  "hasMap": "https://www.google.com/maps/search/?api=1&query=CCS+Ventas+Cars+LLC&query_place_id=ChIJEdHMZbd954gROQlz3H34FLw",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "1477 W Landstreet Rd Ste B",
+    "addressLocality": "Orlando",
+    "addressRegion": "FL",
+    "postalCode": "32824",
+    "addressCountry": "US"
+  },
+  "geo": { "@type": "GeoCoordinates", "latitude": 28.4365346, "longitude": -81.3988515 },
+  "knowsLanguage": ["en", "es"],
+  "openingHoursSpecification": [
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Friday"], "opens": "10:00", "closes": "18:00" },
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": "Thursday", "opens": "09:00", "closes": "18:00" },
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "10:00", "closes": "17:00" }
+  ],
+  "sameAs": [
+    "https://www.facebook.com/ccsventascars",
+    "https://www.instagram.com/ccsventascars/"
+  ]
+}
+</script>
+
+<style>
+/* =========================================================
+   BRAND TOKENS — the only place colour lives.
+   Sampled 2026-10-13 from the DealerCenter theme CSS + CCS logo:
+   theme red #FF0000 (header/footer icons), theme yellow #FFF316
+   (buttons/links on their black site), logo flag blue #082B90.
+   ========================================================= */
+:root{
+  --brand:#E10600;        /* dealer red #FF0000, nudged to pass AA: white-on 4.97:1, on paper 4.68:1 */
+  --brand-hover:#C60500;  /* ~12% darker */
+  --brand-ink:#FFFFFF;    /* text on --brand */
+  --brand-2:#082B90;      /* logo flag blue (secondary tint) */
+  --accent:#FFF316;       /* dealer theme yellow — ON DARK BACKGROUNDS ONLY (16:1 on --dark, 1.1:1 on white) */
+  --ink:#0E1116;
+  --ink-2:#2A2F38;
+  --muted:#5D6573;
+  --line:#E3E0D9;
+  --paper:#FAF8F4;
+  --card:#FFFFFF;
+  --dark:#0E1116;
+  --dark-2:#161B22;
+  --on-dark:#F3F1EC;
+  --on-dark-muted:#A7ADB8;
+  --ok:#1F9D55;
+  --radius:14px;
+  --radius-sm:10px;
+  --shadow:0 1px 2px rgba(14,17,22,.06),0 8px 24px rgba(14,17,22,.06);
+  --shadow-lift:0 2px 4px rgba(14,17,22,.08),0 18px 40px rgba(14,17,22,.12);
+  --wrap:1200px;
+  --display:"Archivo",system-ui,sans-serif;
+  --body:"Instrument Sans",system-ui,sans-serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--ink);font:400 17px/1.6 var(--body);-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block}
+a{color:inherit}
+button,input,select,textarea{font:inherit}
+.wrap{max-width:var(--wrap);margin:0 auto;padding:0 20px}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+:focus-visible{outline:3px solid var(--brand);outline-offset:3px;border-radius:4px}
+
+/* ---------- type ---------- */
+h1,h2,h3{font-family:var(--display);font-stretch:112%;letter-spacing:-.02em;line-height:1.02;margin:0}
+h1{font-size:clamp(42px,6.4vw,84px);font-weight:850}
+h2{font-size:clamp(32px,4.2vw,54px);font-weight:800}
+h3{font-size:21px;font-weight:750;font-stretch:100%;letter-spacing:-.01em;line-height:1.2}
+.lede{font-size:clamp(17px,1.5vw,20px);color:var(--muted);max-width:60ch}
+.eyebrow{display:flex;align-items:center;gap:12px;font:700 12px/1 var(--display);font-stretch:118%;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);margin-bottom:18px}
+.eyebrow b{color:var(--brand)}
+.eyebrow i{display:block;width:36px;height:2px;background:currentColor;opacity:.4}
+
+/* ---------- buttons ---------- */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:52px;padding:0 24px;border-radius:999px;border:2px solid transparent;font:700 15px/1 var(--display);font-stretch:108%;letter-spacing:.02em;text-decoration:none;cursor:pointer;transition:background .2s,transform .2s,border-color .2s,color .2s;white-space:nowrap}
+.btn:active{transform:translateY(1px)}
+.btn-brand{background:var(--brand);color:var(--brand-ink)}
+.btn-brand:hover{background:var(--brand-hover)}
+.btn-dark{background:var(--ink);color:#fff}
+.btn-dark:hover{background:var(--ink-2)}
+.btn-ghost{border-color:currentColor;color:var(--ink);background:transparent}
+.btn-ghost:hover{background:var(--ink);color:#fff;border-color:var(--ink)}
+.on-dark .btn-ghost{color:var(--on-dark)}
+.on-dark .btn-ghost:hover{background:var(--on-dark);color:var(--ink);border-color:var(--on-dark)}
+.btn svg{width:18px;height:18px;flex:none}
+.link-arrow{font-weight:700;text-decoration:none;border-bottom:2px solid var(--brand);padding-bottom:2px}
+
+/* ---------- utility bar ---------- */
+.util{background:var(--dark);color:var(--on-dark-muted);font-size:13.5px}
+.util .wrap{display:flex;align-items:center;gap:22px;min-height:42px}
+.util a{text-decoration:none;color:var(--on-dark)}
+.util a:hover{text-decoration:underline}
+.util .sp{flex:1}
+.util .socials{display:flex;gap:14px}
+.util .socials svg{width:16px;height:16px;fill:var(--on-dark-muted)}
+.util .socials a:hover svg{fill:#fff}
+.status{display:inline-flex;align-items:center;gap:8px;font-weight:600;color:var(--on-dark)}
+.status .dot{width:8px;height:8px;border-radius:50%;background:#7a7f88}
+.status.open .dot{background:#3BD07A;box-shadow:0 0 0 4px rgba(59,208,122,.18)}
+.lang{display:inline-flex;border:1px solid #333a45;border-radius:999px;overflow:hidden}
+.lang button{background:none;border:0;color:var(--on-dark-muted);padding:5px 11px;font:700 12px/1 var(--display);letter-spacing:.08em;cursor:pointer}
+.lang button[aria-pressed="true"]{background:var(--brand);color:var(--brand-ink)}
+@media (max-width:860px){.util .addr,.util .socials,.util .sales{display:none}.util .wrap{gap:12px;font-size:12.5px}}
+
+/* ---------- header ---------- */
+.hdr{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.94);backdrop-filter:saturate(1.4) blur(10px);-webkit-backdrop-filter:saturate(1.4) blur(10px);border-bottom:1px solid var(--line)}
+.hdr .wrap{display:flex;align-items:center;gap:24px;min-height:76px}
+.logo img{height:58px;width:auto;border-radius:8px}
+.nav{display:flex;gap:4px;margin-left:auto}
+.nav a{text-decoration:none;font:600 14.5px/1 var(--body);padding:10px 12px;border-radius:8px;color:var(--ink-2)}
+.nav a:hover{background:#F1EEE8;color:var(--ink)}
+.hdr .btn{min-height:46px;padding:0 18px}
+.burger{display:none;margin-left:auto;background:none;border:0;padding:10px;cursor:pointer}
+.burger svg{width:28px;height:28px}
+@media (max-width:1080px){.nav,.hdr .call-cta{display:none}.burger{display:block}}
+.drawer{position:fixed;inset:0;z-index:80;background:var(--dark);color:var(--on-dark);padding:24px;display:none;flex-direction:column;gap:6px;overflow:auto}
+.drawer.open{display:flex}
+.drawer a{color:var(--on-dark);text-decoration:none;font:800 30px/1.2 var(--display);font-stretch:110%;padding:8px 0;border-bottom:1px solid #222832}
+.drawer .close{align-self:flex-end;background:none;border:0;color:#fff;font-size:34px;cursor:pointer}
+.drawer .btn{margin-top:18px;font-size:16px}
+
+/* ---------- hero ---------- */
+.hero{position:relative;overflow:hidden;background:var(--dark);color:var(--on-dark);padding:88px 0 0}
+.hero::before{content:"";position:absolute;inset:0;background:
+  radial-gradient(900px 500px at 85% -10%,color-mix(in srgb,var(--brand) 38%,transparent),transparent 60%),
+  radial-gradient(700px 420px at -10% 110%,color-mix(in srgb,var(--brand-2) 70%,transparent),transparent 60%);opacity:.9}
+.hero.has-img::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(14,17,22,.92) 0%,rgba(14,17,22,.7) 45%,rgba(14,17,22,.25) 100%)}
+.hero .bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.hero .wrap{position:relative;z-index:2;display:grid;grid-template-columns:1.25fr .9fr;gap:56px;align-items:end}
+.hero h1 em{font-style:normal;color:var(--accent)}
+.hero .lede{color:var(--on-dark-muted);margin:22px 0 32px}
+.hero .ctas{display:flex;flex-wrap:wrap;gap:12px}
+.hero .kicker{display:inline-flex;align-items:center;gap:10px;font:700 12.5px/1 var(--display);letter-spacing:.14em;text-transform:uppercase;color:var(--on-dark);background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.12);padding:9px 14px;border-radius:999px;margin-bottom:26px}
+.hero .kicker b{color:var(--accent)}
+.qs{background:var(--card);color:var(--ink);border-radius:var(--radius) var(--radius) 0 0;padding:28px 26px 30px;box-shadow:var(--shadow-lift)}
+.qs h2{font-size:19px;font-weight:750;font-stretch:100%;letter-spacing:-.01em;line-height:1.2;margin-bottom:4px}
+.qs p{margin:0 0 18px;color:var(--muted);font-size:15px}
+.bands{display:grid;gap:10px}
+.band{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:16px 18px;border:1.5px solid var(--line);border-radius:var(--radius-sm);text-decoration:none;transition:border-color .2s,transform .2s,background .2s}
+.band:hover{border-color:var(--brand);transform:translateX(3px)}
+.band strong{font:800 20px/1 var(--display);font-stretch:110%}
+.band span{font-size:14px;color:var(--muted)}
+.band svg{width:20px;height:20px;color:var(--brand);flex:none}
+.qs .alt{display:flex;justify-content:space-between;gap:12px;margin-top:16px;font-size:14.5px}
+.qs .alt a{font-weight:700;text-decoration:none;color:var(--ink)}
+.qs .alt a:hover{color:var(--brand)}
+.hero-pad{padding-bottom:72px}
+@media (max-width:960px){.hero .wrap{grid-template-columns:1fr;gap:40px}.qs{border-radius:var(--radius) var(--radius) 0 0}.hero{padding-top:56px}.hero-pad{padding-bottom:0}}
+
+/* ---------- proof strip ---------- */
+.strip{background:var(--card);border-bottom:1px solid var(--line)}
+.strip .wrap{display:grid;grid-template-columns:repeat(4,1fr)}
+.strip div{padding:24px 18px;border-left:1px solid var(--line);display:flex;gap:14px;align-items:center}
+.strip div:first-child{border-left:0}
+.strip svg{width:28px;height:28px;color:var(--brand);flex:none}
+.strip b{display:block;font:800 16px/1.2 var(--display);font-stretch:108%}
+.strip small{color:var(--muted);font-size:13.5px}
+@media (max-width:860px){.strip .wrap{grid-template-columns:1fr 1fr}.strip div:nth-child(3){border-left:0}.strip div:nth-child(n+3){border-top:1px solid var(--line)}}
+@media (max-width:460px){.strip div{padding:18px 12px;gap:10px}.strip svg{width:22px;height:22px}}
+
+/* ---------- sections ---------- */
+section{padding:104px 0}
+.sec-head{display:flex;justify-content:space-between;align-items:end;gap:32px;margin-bottom:48px}
+.sec-head .lede{margin-top:16px}
+@media (max-width:760px){section{padding:72px 0}.sec-head{flex-direction:column;align-items:flex-start}}
+.alt-bg{background:#F2EFE9}
+.dark{background:var(--dark);color:var(--on-dark)}
+.dark .lede,.dark .eyebrow{color:var(--on-dark-muted)}
+
+/* ---------- vehicles ---------- */
+.cars{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;margin-bottom:28px}
+.car{background:var(--card);border-radius:var(--radius);overflow:hidden;text-decoration:none;box-shadow:var(--shadow);transition:transform .25s,box-shadow .25s;display:flex;flex-direction:column}
+.car:hover{transform:translateY(-4px);box-shadow:var(--shadow-lift)}
+.car .ph{aspect-ratio:4/3;background:#E7E3DC;overflow:hidden}
+.car .ph img{width:100%;height:100%;object-fit:cover}
+.car .bd{padding:18px 18px 20px;display:flex;flex-direction:column;gap:6px;flex:1}
+.car .pr{font:850 26px/1 var(--display);font-stretch:108%;margin-top:4px}
+.car .sp{color:var(--muted);font-size:14px}
+.car .go{margin-top:auto;padding-top:12px;font-weight:700;font-size:14px;color:var(--brand)}
+@media (max-width:1000px){.cars{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:620px){.cars{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:14px;margin:0 -20px 28px;padding:4px 20px 12px}.car{flex:0 0 78%;scroll-snap-align:start}}
+.tiles{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.tile{position:relative;background:var(--dark);color:var(--on-dark);border-radius:var(--radius);padding:30px 26px;text-decoration:none;overflow:hidden;min-height:170px;display:flex;flex-direction:column;justify-content:space-between;transition:transform .25s}
+.tile::after{content:"";position:absolute;right:-40px;bottom:-40px;width:160px;height:160px;border-radius:50%;background:var(--brand);opacity:.18;transition:transform .35s,opacity .35s}
+.tile:hover{transform:translateY(-3px)}
+.tile:hover::after{transform:scale(1.35);opacity:.32}
+.tile strong{font:850 34px/1 var(--display);font-stretch:112%}
+.tile span{color:var(--on-dark-muted);font-size:15px;position:relative;z-index:1}
+@media (max-width:760px){.tiles{grid-template-columns:1fr}}
+
+/* ---------- why ---------- */
+.why{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.why article{background:var(--card);border-radius:var(--radius);padding:30px 26px;box-shadow:var(--shadow);border-top:4px solid var(--brand)}
+.why .ic{width:48px;height:48px;border-radius:12px;display:grid;place-items:center;background:color-mix(in srgb,var(--brand) 10%,#fff);color:var(--brand);margin-bottom:22px}
+.why .ic svg{width:24px;height:24px}
+.why p{color:var(--muted);margin:10px 0 0;font-size:15.5px}
+@media (max-width:1000px){.why{grid-template-columns:1fr 1fr}}
+@media (max-width:560px){.why{grid-template-columns:1fr}}
+
+/* ---------- steps ---------- */
+.steps{display:grid;grid-template-columns:repeat(4,1fr);counter-reset:s;border-top:1px solid #2A303A}
+.steps li{list-style:none;padding:34px 26px 0 0;counter-increment:s}
+.steps li::before{content:"0" counter(s);display:block;font:850 54px/1 var(--display);font-stretch:118%;color:var(--accent);margin-bottom:20px}
+.steps p{color:var(--on-dark-muted);font-size:15.5px;margin:10px 0 0}
+.steps{padding:0;margin:0}
+@media (max-width:900px){.steps{grid-template-columns:1fr 1fr;gap:10px 24px}}
+@media (max-width:520px){.steps{grid-template-columns:1fr}}
+
+/* ---------- forms ---------- */
+.formcard{background:var(--card);color:var(--ink);border-radius:var(--radius);padding:34px 30px;box-shadow:var(--shadow-lift)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.f{display:flex;flex-direction:column;gap:6px;margin-bottom:14px}
+.f label{font-weight:600;font-size:14px}
+.f input,.f select,.f textarea{min-height:50px;padding:12px 14px;border:1.5px solid var(--line);border-radius:var(--radius-sm);background:#fff;color:var(--ink);font-size:16px;transition:border-color .2s}
+.f textarea{min-height:96px;resize:vertical}
+.f input:focus,.f select:focus,.f textarea:focus{outline:none;border-color:var(--brand)}
+.f .err{display:none;color:#B42318;font-size:13px}
+.f.bad input,.f.bad select{border-color:#B42318}
+.f.bad .err{display:block}
+.consent{display:flex;gap:10px;align-items:flex-start;font-size:13px;color:var(--muted);margin:6px 0 10px;line-height:1.45}
+.consent input{margin-top:3px;width:18px;height:18px;flex:none;accent-color:var(--brand)}
+.fine{font-size:12px;color:var(--muted);line-height:1.5;margin:10px 0 18px}
+.fine a{color:var(--ink)}
+.formcard .btn{width:100%}
+.hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+.done{display:none;text-align:center;padding:30px 10px}
+.done svg{width:56px;height:56px;color:var(--ok);margin:0 auto 14px}
+.done h3{margin-bottom:8px}
+.done p{color:var(--muted);margin:0}
+form.sent .fields{display:none}
+form.sent .done{display:block}
+@media (max-width:520px){.grid2{grid-template-columns:1fr;gap:0}.formcard{padding:26px 20px}}
+
+/* ---------- trade ---------- */
+.trade{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center}
+.trade ul{padding:0;margin:26px 0 0;list-style:none;display:grid;gap:12px}
+.trade li{display:flex;gap:12px;align-items:flex-start}
+.trade li svg{width:22px;height:22px;color:var(--brand);flex:none;margin-top:2px}
+@media (max-width:900px){.trade{grid-template-columns:1fr;gap:36px}}
+
+/* ---------- warranty ---------- */
+.war{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.war article{border:1.5px solid var(--line);border-radius:var(--radius);padding:34px 30px;background:var(--card)}
+.war .tag{display:inline-block;font:800 11.5px/1 var(--display);letter-spacing:.14em;text-transform:uppercase;padding:7px 10px;border-radius:6px;background:var(--ink);color:#fff;margin-bottom:18px}
+.war article:first-child .tag{background:var(--brand);color:var(--brand-ink)}
+.war p{color:var(--muted);margin:12px 0 0}
+.war-foot{display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between;margin-top:26px;padding:22px 26px;border-radius:var(--radius);background:#F2EFE9}
+@media (max-width:820px){.war{grid-template-columns:1fr}}
+
+/* ---------- reviews ---------- */
+.revs{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.rev{margin:0;background:var(--card);border-radius:var(--radius);padding:28px 26px;box-shadow:var(--shadow);display:flex;flex-direction:column;gap:18px}
+.rev blockquote{margin:0;font-size:16.5px;line-height:1.55}
+.rev blockquote::before{content:"“";display:block;font:900 54px/.6 var(--display);color:var(--brand);margin-bottom:6px}
+.rev .who{display:flex;align-items:center;gap:12px;margin-top:auto}
+.rev .av{width:42px;height:42px;border-radius:50%;display:grid;place-items:center;background:var(--ink);color:#fff;font:800 15px/1 var(--display)}
+.rev .who b{display:block;font-size:15px}
+.rev .who small{color:var(--muted);font-size:13px}
+.rev-cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:34px}
+@media (max-width:1000px){.revs{grid-template-columns:1fr 1fr}}
+@media (max-width:640px){.revs{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;margin:0 -20px;padding:4px 20px 12px;gap:14px}.rev{flex:0 0 86%;scroll-snap-align:start}}
+
+/* ---------- finance ---------- */
+.fin{display:grid;grid-template-columns:1fr 1.05fr;gap:56px;align-items:start}
+.fin .pts{display:grid;gap:18px;margin:30px 0}
+.fin .pts div{display:flex;gap:14px}
+.fin .pts .n{flex:none;width:34px;height:34px;border-radius:50%;background:var(--brand);color:var(--brand-ink);display:grid;place-items:center;font:800 14px/1 var(--display)}
+.fin .pts p{margin:2px 0 0;color:var(--on-dark-muted);font-size:15.5px}
+.fin .pts b{color:var(--on-dark)}
+@media (max-width:900px){.fin{grid-template-columns:1fr;gap:36px}}
+
+/* ---------- faq ---------- */
+.faq{max-width:860px}
+.faq details{border-bottom:1px solid var(--line)}
+.faq summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;gap:20px;padding:24px 0;font:750 19px/1.3 var(--display);font-stretch:104%}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";font:400 28px/1 var(--body);color:var(--brand);transition:transform .25s}
+.faq details[open] summary::after{transform:rotate(45deg)}
+.faq details p{margin:0 0 24px;color:var(--muted);max-width:70ch}
+
+/* ---------- visit ---------- */
+.visit{display:grid;grid-template-columns:1.1fr 1fr;gap:0;border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow-lift);background:var(--card)}
+.visit iframe{width:100%;height:100%;min-height:420px;border:0;display:block;filter:grayscale(.2)}
+.visit .info{padding:40px 36px}
+.visit dl{margin:22px 0 0;display:grid;gap:18px}
+.visit dt{font:800 12px/1 var(--display);letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin-bottom:6px}
+.visit dd{margin:0;font-size:16.5px}
+.visit dd a{text-decoration:none;font-weight:600}
+.visit dd a:hover{color:var(--brand)}
+.hrs{width:100%;border-collapse:collapse;font-size:15px}
+.hrs td{padding:6px 0;border-bottom:1px dashed var(--line)}
+.hrs td:last-child{text-align:right}
+.hrs tr.today td{font-weight:800;color:var(--ink)}
+.visit .note{margin-top:18px;padding:14px 16px;border-radius:var(--radius-sm);background:#F2EFE9;font-size:14px;color:var(--ink-2)}
+@media (max-width:900px){.visit{grid-template-columns:1fr}.visit iframe{min-height:280px}.visit .info{padding:30px 22px}}
+
+/* ---------- final cta ---------- */
+.final{position:relative;overflow:hidden;text-align:center}
+.final::before{content:"";position:absolute;inset:0;background:radial-gradient(700px 360px at 50% 120%,color-mix(in srgb,var(--brand) 45%,transparent),transparent 70%)}
+.final .wrap{position:relative}
+.final h2{max-width:16ch;margin:0 auto}
+.final .lede{margin:20px auto 34px}
+.final .ctas{display:flex;flex-wrap:wrap;justify-content:center;gap:12px}
+
+/* ---------- footer ---------- */
+.ftr{background:#080A0D;color:var(--on-dark-muted);padding:80px 0 0;font-size:15px}
+.ftr .cols{display:grid;grid-template-columns:1.3fr 1fr 1fr 1fr;gap:40px}
+.ftr h3{font:800 12px/1 var(--display);letter-spacing:.16em;text-transform:uppercase;color:var(--on-dark);margin:0 0 18px}
+.ftr a{text-decoration:none;color:var(--on-dark-muted)}
+.ftr a:hover{color:#fff}
+.ftr ul{list-style:none;padding:0;margin:0;display:grid;gap:10px}
+.ftr .chip{display:inline-block;background:#000;border:1px solid #1C2129;border-radius:10px;padding:6px 10px;margin-bottom:18px}
+.ftr .chip img{height:46px;width:auto}
+.ftr .socials{display:flex;gap:10px;margin-top:20px}
+.ftr .socials a{width:40px;height:40px;border-radius:50%;background:var(--brand);color:#fff;display:grid;place-items:center}
+.ftr .socials a:hover{background:var(--brand-hover)}
+.ftr .socials svg{width:17px;height:17px;fill:currentColor}
+.ftr .hrs td{border-bottom-color:#1C2129;color:var(--on-dark-muted)}
+.ftr .hrs tr.today td{color:#fff}
+.ftr .base{margin-top:64px;border-top:1px solid #1C2129;padding:28px 0 110px;display:grid;gap:14px;font-size:13px}
+.ftr .base .row{display:flex;flex-wrap:wrap;gap:8px 20px;justify-content:space-between}
+.ftr .sms{max-width:900px;line-height:1.55;color:#7D8490}
+@media (max-width:960px){.ftr .cols{grid-template-columns:1fr 1fr}}
+@media (max-width:560px){.ftr .cols{grid-template-columns:1fr}}
+@media (min-width:861px){.ftr .base{padding-bottom:32px}}
+
+/* ---------- sticky mobile bar ---------- */
+.mbar{position:fixed;left:0;right:0;bottom:0;z-index:60;display:none;grid-template-columns:repeat(var(--cols,3),1fr);background:var(--ink);border-top:1px solid #222832;padding:8px 8px calc(8px + env(safe-area-inset-bottom))}
+.mbar a{display:flex;flex-direction:column;align-items:center;gap:4px;padding:8px 4px;color:#fff;text-decoration:none;font:700 12px/1 var(--display);letter-spacing:.04em;border-radius:10px}
+.mbar a.pri{background:var(--brand);color:var(--brand-ink)}
+.mbar svg{width:20px;height:20px}
+@media (max-width:860px){.mbar{display:grid}}
+
+/* ---------- motion ---------- */
+.rv{opacity:0;transform:translateY(18px);transition:opacity .7s ease,transform .7s ease}
+.rv.in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important;animation:none!important}.rv{opacity:1;transform:none}}
+[hidden]{display:none!important}
+</style>
+</head>
+<body>
+
+<!-- ================= UTILITY BAR (mirrors DealerCenter top bar) ================= -->
+<div class="util">
+  <div class="wrap">
+    <a class="addr" data-link="maps" target="_blank" rel="noopener">1477 W Landstreet Rd Ste B, Orlando, FL 32824</a>
+    <span class="sales"><span data-i18n="u_sales">SALES:</span> <a data-tel><span data-phone-text>(786) 548-8238</span></a></span>
+    <span class="status" id="status"><span class="dot"></span><span id="statusText">—</span></span>
+    <span class="sp"></span>
+    <span class="socials">
+      <a data-link="facebook" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24"><path d="M13.5 21v-7.5h2.5l.4-3h-2.9V8.6c0-.9.3-1.5 1.5-1.5h1.6V4.4c-.3 0-1.2-.1-2.3-.1-2.3 0-3.8 1.4-3.8 3.9v2.3H8v3h2.5V21h3z"/></svg></a>
+      <a data-link="instagram" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24"><path d="M12 7.3a4.7 4.7 0 1 0 0 9.4 4.7 4.7 0 0 0 0-9.4zm0 7.7a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm6-7.9a1.1 1.1 0 1 1-2.2 0 1.1 1.1 0 0 1 2.2 0zM21 7.1c-.1-1.6-.4-3-1.6-4.1-1.1-1.2-2.5-1.5-4.1-1.6H8.7C7.1 1.5 5.7 1.8 4.6 3 3.4 4.1 3.1 5.5 3 7.1v9.8c.1 1.6.4 3 1.6 4.1 1.1 1.2 2.5 1.5 4.1 1.6h6.6c1.6-.1 3-.4 4.1-1.6 1.2-1.1 1.5-2.5 1.6-4.1V7.1zM19 18.6a3.3 3.3 0 0 1-1.9 1.9c-1.3.5-4.4.4-5.1.4s-3.8.1-5.1-.4a3.3 3.3 0 0 1-1.9-1.9c-.5-1.3-.4-4.4-.4-5.6s-.1-4.3.4-5.6A3.3 3.3 0 0 1 6.9 5.5C8.2 5 11.3 5.1 12 5.1s3.8-.1 5.1.4A3.3 3.3 0 0 1 19 7.4c.5 1.3.4 4.4.4 5.6s.1 4.3-.4 5.6z"/></svg></a>
+      <a data-link="googleReviews" target="_blank" rel="noopener" aria-label="Google"><svg viewBox="0 0 24 24"><path d="M21.6 12.2c0-.7-.1-1.4-.2-2H12v3.8h5.4a4.6 4.6 0 0 1-2 3v2.5h3.2c1.9-1.7 3-4.3 3-7.3zM12 22c2.7 0 5-.9 6.6-2.4l-3.2-2.5c-.9.6-2 1-3.4 1-2.6 0-4.8-1.8-5.6-4.1H3.1v2.6A10 10 0 0 0 12 22zM6.4 14a6 6 0 0 1 0-3.9V7.5H3.1a10 10 0 0 0 0 9.1L6.4 14zM12 6c1.5 0 2.8.5 3.8 1.5l2.9-2.9A10 10 0 0 0 3.1 7.5L6.4 10C7.2 7.7 9.4 6 12 6z"/></svg></a>
+    </span>
+    <span class="lang" role="group" aria-label="Language">
+      <button type="button" data-lang="en" aria-pressed="true">EN</button>
+      <button type="button" data-lang="es" aria-pressed="false">ES</button>
+    </span>
+  </div>
+</div>
+
+<!-- ================= HEADER (mirrors DealerCenter nav) ================= -->
+<header class="hdr">
+  <div class="wrap">
+    <a class="logo" href="/" aria-label="CCS Ventas Cars home"><img id="logo" alt="CCS Ventas Cars LLC" width="180" height="54"></a>
+    <nav class="nav" aria-label="Main">
+      <a data-link="inventory" data-i18n="n_inv">Inventory</a>
+      <a data-link="carFinder" data-i18n="n_finder">Car Finder</a>
+      <a href="#financing" data-i18n="n_fin">Financing</a>
+      <a href="#trade" data-i18n="n_trade">Trade-In</a>
+      <a href="#warranty" data-i18n="n_war">Warranty</a>
+      <a data-link="about" data-i18n="n_about">About Us</a>
+      <a href="#reviews" data-i18n="n_rev">Reviews</a>
+      <a href="#visit" data-i18n="n_contact">Contact</a>
+    </nav>
+    <a class="btn btn-brand call-cta" data-tel data-track="call_header">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg>
+      <span data-phone-text>(786) 548-8238</span>
+    </a>
+    <button class="burger" type="button" aria-label="Open menu" aria-expanded="false" id="burger"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M3 7h18M3 12h18M3 17h18"/></svg></button>
+  </div>
+</header>
+
+<div class="drawer" id="drawer" role="dialog" aria-modal="true" aria-label="Menu">
+  <button class="close" type="button" aria-label="Close menu" id="drawerClose">×</button>
+  <a data-link="inventory" data-i18n="n_inv">Inventory</a>
+  <a data-link="carFinder" data-i18n="n_finder">Car Finder</a>
+  <a href="#financing" data-i18n="n_fin">Financing</a>
+  <a href="#trade" data-i18n="n_trade">Trade-In</a>
+  <a href="#warranty" data-i18n="n_war">Warranty</a>
+  <a data-link="about" data-i18n="n_about">About Us</a>
+  <a href="#reviews" data-i18n="n_rev">Reviews</a>
+  <a href="#visit" data-i18n="n_contact">Contact</a>
+  <a class="btn btn-brand" data-tel data-track="call_drawer"><span data-i18n="c_call">Call</span>&nbsp;<span data-phone-text>(786) 548-8238</span></a>
+</div>
+
+<main>
+
+<!-- ================= HERO ================= -->
+<section class="hero on-dark" id="top" style="padding-bottom:0">
+  <img class="bg" id="heroImg" alt="" fetchpriority="high" decoding="async" hidden>
+  <div class="wrap">
+    <div class="hero-pad rv">
+      <div class="kicker"><b>●</b> <span data-i18n="h_kick">Orlando · W Landstreet Rd · Hablamos Español</span></div>
+      <h1 data-i18n="h_title">Your next car, <em>without the runaround.</em></h1>
+      <p class="lede" data-i18n="h_sub">Quality pre-owned cars, trucks and SUVs, with financing options and GWC warranty plans. Talk to us in English or Spanish, whichever feels like home.</p>
+      <div class="ctas">
+        <a class="btn btn-brand" data-link="inventory" data-track="cta_inventory_hero"><span data-i18n="c_inv">Browse inventory</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        <a class="btn btn-ghost" href="#financing" data-track="cta_finance_hero" data-i18n="c_fin">Start with financing</a>
+      </div>
+    </div>
+    <aside class="qs rv" aria-labelledby="qsTitle">
+      <h2 id="qsTitle" data-i18n="qs_t">Shop by budget</h2>
+      <p data-i18n="qs_s">Jump straight to the cars in your price range.</p>
+      <div class="bands" id="heroBands"></div>
+      <div class="alt">
+        <a data-link="carFinder" data-track="cta_carfinder_hero" data-i18n="qs_f">Can't find it? Car Finder →</a>
+        <a data-link="inventory" data-i18n="qs_all">All cars →</a>
+      </div>
+    </aside>
+  </div>
+</section>
+
+<!-- ================= PROOF STRIP (honest claims only) ================= -->
+<div class="strip">
+  <div class="wrap">
+    <div><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg><span><b data-i18n="p1">English & Español</b><small data-i18n="p1s">Bilingual from hello to keys</small></span></div>
+    <div><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="5" width="20" height="14" rx="2"/><path d="M2 10h20"/></svg><span><b data-i18n="p2">Financing options</b><small data-i18n="p2s">Apply online in minutes</small></span></div>
+    <div><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg><span><b data-i18n="p3">GWC warranty plans</b><small data-i18n="p3s">Coverage you can add on</small></span></div>
+    <div><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg><span><b data-i18n="p4">Open 6 days</b><small data-i18n="p4s">Mon–Sat on Landstreet Rd</small></span></div>
+  </div>
+</div>
+
+<!-- ================= 01 FROM THE LOT ================= -->
+<section id="lot">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <div>
+        <div class="eyebrow"><b>01</b><i></i><span data-i18n="e1">From the lot</span></div>
+        <h2 data-i18n="s1_t">A look at what's on the lot.</h2>
+        <p class="lede" data-i18n="s1_s">Inventory changes every week. Every listing links to the live vehicle page with current pricing and photos.</p>
+      </div>
+      <a class="btn btn-ghost" data-link="inventory" data-track="cta_inventory_lot"><span data-i18n="c_invall">See full inventory</span> ↗</a>
+    </div>
+    <div class="cars" id="cars" hidden></div>
+    <div class="tiles" id="tiles"></div>
+  </div>
+</section>
+
+<!-- ================= 02 WHY CCS ================= -->
+<section class="alt-bg" id="why">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <div>
+        <div class="eyebrow"><b>02</b><i></i><span data-i18n="e2">Why CCS Ventas</span></div>
+        <h2 data-i18n="s2_t">Small lot. Straight answers.</h2>
+      </div>
+    </div>
+    <div class="why">
+      <article class="rv">
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 8l6 6M4 14l6-6 2-3M2 5h12M7 2h1M22 22l-5-10-5 10M14 18h6"/></svg></div>
+        <h3 data-i18n="w1_t">Hablamos español</h3>
+        <p data-i18n="w1_p">Ask every question in the language you think in. Paperwork, financing and warranty explained clearly, no guessing.</p>
+      </article>
+      <article class="rv">
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="5" width="20" height="14" rx="2"/><path d="M2 10h20M6 15h4"/></svg></div>
+        <h3 data-i18n="w2_t">Financing options</h3>
+        <p data-i18n="w2_p">We work with financing options to fit different budgets. Start online, and we'll call you to walk through it.</p>
+      </article>
+      <article class="rv">
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+        <h3 data-i18n="w3_t">Warranty plans from GWC</h3>
+        <p data-i18n="w3_p">Add protection on eligible vehicles, from major components to coverage that rivals a factory warranty.</p>
+      </article>
+      <article class="rv">
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg></div>
+        <h3 data-i18n="w4_t">Car Finder</h3>
+        <p data-i18n="w4_p">Don't see it on the lot? Tell us the car and budget you want, and we'll look for it through our dealer network.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 03 HOW IT WORKS ================= -->
+<section class="dark on-dark" id="how">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <div>
+        <div class="eyebrow"><b>03</b><i></i><span data-i18n="e3">How it works</span></div>
+        <h2 data-i18n="s3_t">Four steps to your keys.</h2>
+      </div>
+      <a class="btn btn-ghost" data-tel data-track="call_how"><span data-i18n="c_call">Call</span>&nbsp;<span data-phone-text>(786) 548-8238</span></a>
+    </div>
+    <ol class="steps">
+      <li class="rv"><h3 data-i18n="st1_t">Pick your car</h3><p data-i18n="st1_p">Browse online or use Car Finder. Save the ones you like.</p></li>
+      <li class="rv"><h3 data-i18n="st2_t">Come see it</h3><p data-i18n="st2_p">Test drive at our Landstreet Rd location. Call ahead and we'll have it ready.</p></li>
+      <li class="rv"><h3 data-i18n="st3_t">Sort the numbers</h3><p data-i18n="st3_p">Financing, trade-in and warranty, explained in English or Spanish.</p></li>
+      <li class="rv"><h3 data-i18n="st4_t">Drive home</h3><p data-i18n="st4_p">Sign, get your keys, and go. We're a call away after the sale.</p></li>
+    </ol>
+  </div>
+</section>
+
+<!-- ================= TRADE-IN ================= -->
+<section id="trade">
+  <div class="wrap trade">
+    <div class="rv">
+      <div class="eyebrow"><b>04</b><i></i><span data-i18n="e4">Trade-in</span></div>
+      <h2 data-i18n="t_t">Got a car to trade? Start here.</h2>
+      <p class="lede" style="margin-top:16px" data-i18n="t_s">Send us the basics and we'll get back to you about your trade. It takes about a minute.</p>
+      <ul>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg><span data-i18n="t_b1">Use it toward your next car on our lot</span></li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg><span data-i18n="t_b2">Final offer after we see the car in person</span></li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg><span data-i18n="t_b3">English or Spanish, your choice</span></li>
+      </ul>
+    </div>
+    <form class="formcard lead-form rv" data-form="trade_in" novalidate>
+      <div class="fields">
+        <div class="grid2">
+          <div class="f"><label for="tr_year" data-i18n="f_year">Year</label><input id="tr_year" name="vehicle_year" inputmode="numeric" maxlength="4" required><span class="err" data-i18n="f_req">Required</span></div>
+          <div class="f"><label for="tr_make" data-i18n="f_make">Make</label><input id="tr_make" name="vehicle_make" required><span class="err" data-i18n="f_req">Required</span></div>
+          <div class="f"><label for="tr_model" data-i18n="f_model">Model</label><input id="tr_model" name="vehicle_model" required><span class="err" data-i18n="f_req">Required</span></div>
+          <div class="f"><label for="tr_miles" data-i18n="f_miles">Mileage</label><input id="tr_miles" name="vehicle_mileage" inputmode="numeric"></div>
+        </div>
+        <div class="grid2">
+          <div class="f"><label for="tr_name" data-i18n="f_name">Full name</label><input id="tr_name" name="full_name" autocomplete="name" required><span class="err" data-i18n="f_req">Required</span></div>
+          <div class="f"><label for="tr_phone" data-i18n="f_phone">Phone</label><input id="tr_phone" name="phone" type="tel" autocomplete="tel" required><span class="err" data-i18n="f_phone_err">Enter a valid phone number</span></div>
+        </div>
+        <div class="hp" aria-hidden="true"><label>Website <input name="website" tabindex="-1" autocomplete="off"></label></div>
+        <div class="sms-consent"></div>
+        <button class="btn btn-brand" type="submit" data-i18n="t_btn">Send my trade-in</button>
+      </div>
+      <div class="done" role="status"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="m8 12 3 3 5-6"/></svg><h3 data-i18n="d_t">Got it. Thank you!</h3><p data-i18n="d_p">Someone from our team will contact you soon. If it's urgent, call us.</p></div>
+    </form>
+  </div>
+</section>
+
+<!-- ================= WARRANTY ================= -->
+<section class="alt-bg" id="warranty">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <div>
+        <div class="eyebrow"><b>05</b><i></i><span data-i18n="e5">Warranty</span></div>
+        <h2 data-i18n="wa_t">Drive off covered.</h2>
+        <p class="lede" data-i18n="wa_s">We offer GWC Warranty plans, from basic coverage of a vehicle's most expensive components to comprehensive plans that rival a manufacturer's factory warranty.</p>
+      </div>
+      <a class="btn btn-ghost" data-link="warranty" data-i18n="wa_more">Warranty details ↗</a>
+    </div>
+    <div class="war">
+      <article class="rv">
+        <span class="tag" data-i18n="wa1_tag">Most protection</span>
+        <h3 data-i18n="wa1_t">Exclusionary Coverage</h3>
+        <p data-i18n="wa1_p">Covers so much it's easier to list what it doesn't. Everything the manufacturer's basic factory warranty would cover is included, except the parts listed under "Exclusions From Coverage" in your contract.</p>
+      </article>
+      <article class="rv">
+        <span class="tag" data-i18n="wa2_tag">Targeted protection</span>
+        <h3 data-i18n="wa2_t">Stated Component Coverage</h3>
+        <p data-i18n="wa2_p">Covers the parts and systems listed on your contract. If a covered component fails, the plan pays for parts and labor so you're back on the road quickly.</p>
+      </article>
+    </div>
+    <div class="war-foot rv">
+      <span data-i18n="wa_ask">Coverage, terms and eligibility vary by vehicle and plan. Ask us which plans fit the car you like.</span>
+      <a class="btn btn-dark" data-tel data-track="call_warranty"><span data-i18n="c_ask">Ask about coverage</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= REVIEWS ================= -->
+<section id="reviews">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <div>
+        <div class="eyebrow"><b>06</b><i></i><span data-i18n="e6">What customers say</span></div>
+        <h2 data-i18n="r_t">Ask for Melva or José.</h2>
+        <p class="lede" data-i18n="r_s">Real words from real customers, shared on our public reviews.</p>
+      </div>
+      <div id="ratingBadge" hidden></div>
+    </div>
+    <div class="revs" id="revs"></div>
+    <div class="rev-cta">
+      <a class="btn btn-dark" data-link="googleReviews" target="_blank" rel="noopener" data-i18n="r_more">Read more reviews on Google ↗</a>
+      <a class="btn btn-ghost" data-link="writeReview" target="_blank" rel="noopener" data-i18n="r_write">Bought from us? Leave a review</a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FINANCING ================= -->
+<section class="dark on-dark" id="financing">
+  <div class="wrap fin">
+    <div class="rv">
+      <div class="eyebrow"><b>07</b><i></i><span data-i18n="e7">Financing</span></div>
+      <h2 data-i18n="f_t">Start your financing in 60 seconds.</h2>
+      <p class="lede" style="margin-top:16px" data-i18n="f_s">Tell us how to reach you and what you're looking for. We'll call to walk you through your options, then you can finish the full application when you're ready.</p>
+      <div class="pts">
+        <div><span class="n">1</span><span><b data-i18n="fp1_t">Send the short form</b><p data-i18n="fp1_p">Name, phone and your budget. No Social Security number here.</p></span></div>
+        <div><span class="n">2</span><span><b data-i18n="fp2_t">We call you</b><p data-i18n="fp2_p">In English or Spanish, during business hours.</p></span></div>
+        <div><span class="n">3</span><span><b data-i18n="fp3_t">Finish the secure application</b><p data-i18n="fp3_p">Complete the full credit application when you're ready.</p></span></div>
+      </div>
+      <a class="link-arrow" data-link="applyOnline" data-track="cta_full_app" data-i18n="f_full">Ready now? Go to the full credit application ↗</a>
+    </div>
+    <form class="formcard lead-form rv" data-form="finance_start" novalidate>
+      <div class="fields">
+        <div class="grid2">
+          <div class="f"><label for="fi_first" data-i18n="f_first">First name</label><input id="fi_first" name="first_name" autocomplete="given-name" required><span class="err" data-i18n="f_req">Required</span></div>
+          <div class="f"><label for="fi_last" data-i18n="f_last">Last name</label><input id="fi_last" name="last_name" autocomplete="family-name" required><span class="err" data-i18n="f_req">Required</span></div>
+        </div>
+        <div class="grid2">
+          <div class="f"><label for="fi_phone" data-i18n="f_phone">Phone</label><input id="fi_phone" name="phone" type="tel" autocomplete="tel" required><span class="err" data-i18n="f_phone_err">Enter a valid phone number</span></div>
+          <div class="f"><label for="fi_email" data-i18n="f_email">Email (optional)</label><input id="fi_email" name="email" type="email" autocomplete="email"></div>
+        </div>
+        <div class="grid2">
+          <div class="f"><label for="fi_down" data-i18n="f_down">Down payment</label>
+            <select id="fi_down" name="down_payment">
+              <option value="" data-i18n="o_sel">Select…</option>
+              <option value="under_1000" data-i18n="o_d1">Under $1,000</option>
+              <option value="1000_2500">$1,000 – $2,500</option>
+              <option value="2500_5000">$2,500 – $5,000</option>
+              <option value="5000_plus" data-i18n="o_d4">$5,000+</option>
+              <option value="not_sure" data-i18n="o_ns">Not sure yet</option>
+            </select></div>
+          <div class="f"><label for="fi_lang" data-i18n="f_lang">Preferred language</label>
+            <select id="fi_lang" name="preferred_language">
+              <option value="en">English</option>
+              <option value="es">Español</option>
+            </select></div>
+        </div>
+        <div class="f"><label for="fi_car" data-i18n="f_car">Car you're interested in (optional)</label><input id="fi_car" name="vehicle_interest"></div>
+        <div class="hp" aria-hidden="true"><label>Website <input name="website" tabindex="-1" autocomplete="off"></label></div>
+        <div class="sms-consent"></div>
+        <button class="btn btn-brand" type="submit" data-i18n="f_btn">Request a call back</button>
+      </div>
+      <div class="done" role="status"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="m8 12 3 3 5-6"/></svg><h3 data-i18n="d_t">Got it. Thank you!</h3><p data-i18n="d_p2">We'll call you soon. Want to keep going? </p><p style="margin-top:14px"><a class="btn btn-brand" data-link="applyOnline" data-track="cta_full_app_after" data-i18n="d_cont">Continue to full application ↗</a></p></div>
+    </form>
+  </div>
+</section>
+
+<!-- ================= FAQ ================= -->
+<section id="faq">
+  <div class="wrap">
+    <div class="sec-head rv"><div>
+      <div class="eyebrow"><b>08</b><i></i><span data-i18n="e8">Good to know</span></div>
+      <h2 data-i18n="q_t">Questions, answered.</h2>
+    </div></div>
+    <div class="faq">
+      <details class="rv"><summary data-i18n="q1">Do you speak Spanish?</summary><p data-i18n="a1">Sí. You can ask questions, review paperwork and talk through financing and warranties in Spanish or English.</p></details>
+      <details class="rv"><summary data-i18n="q2">Do you offer financing?</summary><p data-i18n="a2">Yes, we offer financing options. Send the short form above and we'll call you, or go straight to our online credit application.</p></details>
+      <details class="rv"><summary data-i18n="q3">Can I trade in my current car?</summary><p data-i18n="a3">Yes. Send us your car's year, make, model and mileage through the trade-in form. The final value is confirmed after we see the vehicle in person.</p></details>
+      <details class="rv"><summary data-i18n="q4">Do your cars come with a warranty?</summary><p data-i18n="a4">We offer GWC Warranty plans you can add to eligible vehicles. Coverage and terms depend on the vehicle and the plan, so ask us which ones apply to the car you like.</p></details>
+      <details class="rv"><summary data-i18n="q5">What if I can't find the car I want?</summary><p data-i18n="a5">Use Car Finder. Tell us the make, model and budget you're after, and we'll let you know when we find a match.</p></details>
+      <details class="rv"><summary data-i18n="q6">Are you open on Sunday?</summary><p data-i18n="a6">We're closed Sundays. You can still send a financing or trade-in request any time, and we'll call you back on our next business day.</p></details>
+      <details class="rv"><summary data-i18n="q7">How do I find you?</summary><p data-i18n="a7">We're at 1477 W Landstreet Rd, Suite B, Orlando, FL 32824. The building has several dealers, so look for Suite B. Tap "Directions" to open the map.</p></details>
+    </div>
+  </div>
+</section>
+
+<!-- ================= VISIT ================= -->
+<section class="alt-bg" id="visit">
+  <div class="wrap">
+    <div class="visit rv">
+      <iframe id="map" title="Map to CCS Ventas Cars" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <div class="info">
+        <div class="eyebrow"><b>09</b><i></i><span data-i18n="e9">Visit us</span></div>
+        <h2 style="font-size:clamp(30px,3.4vw,42px)" data-i18n="v_t">Come see the cars.</h2>
+        <dl>
+          <div><dt data-i18n="v_addr">Address</dt><dd><a data-link="maps" target="_blank" rel="noopener">1477 W Landstreet Rd Ste B<br>Orlando, FL 32824</a></dd></div>
+          <div><dt data-i18n="v_ph">Sales</dt><dd><a data-tel data-track="call_visit"><span data-phone-text>(786) 548-8238</span></a><br><a data-email>ccsventascars@gmail.com</a></dd></div>
+          <div><dt data-i18n="v_hrs">Store hours</dt><dd><table class="hrs" id="hrsVisit"></table></dd></div>
+        </dl>
+        <div class="note" id="afterHours" hidden data-i18n="v_closed">We're closed right now. Send a request above and we'll call you as soon as we open.</div>
+        <p style="margin-top:22px"><a class="btn btn-brand" data-link="maps" target="_blank" rel="noopener" data-track="cta_directions" data-i18n="c_dir">Get directions</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FINAL CTA ================= -->
+<section class="dark on-dark final">
+  <div class="wrap rv">
+    <h2 data-i18n="fc_t">Your next car is a call away.</h2>
+    <p class="lede" data-i18n="fc_s">Browse the lot, start your financing, or just call. English or Spanish.</p>
+    <div class="ctas">
+      <a class="btn btn-brand" data-link="inventory" data-track="cta_inventory_final" data-i18n="c_inv">Browse inventory</a>
+      <a class="btn btn-ghost" data-tel data-track="call_final"><span data-i18n="c_call">Call</span>&nbsp;<span data-phone-text>(786) 548-8238</span></a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ================= FOOTER (mirrors DealerCenter footer blocks) ================= -->
+<footer class="ftr">
+  <div class="wrap">
+    <div class="cols">
+      <div>
+        <span class="chip"><img id="logoFoot" alt="CCS Ventas Cars LLC" width="160" height="46"></span>
+        <p data-i18n="ft_blurb">Quality pre-owned vehicles on W Landstreet Rd in Orlando, with financing options and GWC warranty plans. Hablamos español.</p>
+        <div class="socials">
+          <a data-link="facebook" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24"><path d="M13.5 21v-7.5h2.5l.4-3h-2.9V8.6c0-.9.3-1.5 1.5-1.5h1.6V4.4c-.3 0-1.2-.1-2.3-.1-2.3 0-3.8 1.4-3.8 3.9v2.3H8v3h2.5V21h3z"/></svg></a>
+          <a data-link="instagram" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24"><path d="M12 7.3a4.7 4.7 0 1 0 0 9.4 4.7 4.7 0 0 0 0-9.4zm0 7.7a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm6-7.9a1.1 1.1 0 1 1-2.2 0 1.1 1.1 0 0 1 2.2 0zM21 7.1c-.1-1.6-.4-3-1.6-4.1-1.1-1.2-2.5-1.5-4.1-1.6H8.7C7.1 1.5 5.7 1.8 4.6 3 3.4 4.1 3.1 5.5 3 7.1v9.8c.1 1.6.4 3 1.6 4.1 1.1 1.2 2.5 1.5 4.1 1.6h6.6c1.6-.1 3-.4 4.1-1.6 1.2-1.1 1.5-2.5 1.6-4.1V7.1zM19 18.6a3.3 3.3 0 0 1-1.9 1.9c-1.3.5-4.4.4-5.1.4s-3.8.1-5.1-.4a3.3 3.3 0 0 1-1.9-1.9c-.5-1.3-.4-4.4-.4-5.6s-.1-4.3.4-5.6A3.3 3.3 0 0 1 6.9 5.5C8.2 5 11.3 5.1 12 5.1s3.8-.1 5.1.4A3.3 3.3 0 0 1 19 7.4c.5 1.3.4 4.4.4 5.6s.1 4.3-.4 5.6z"/></svg></a>
+          <a data-link="googleReviews" target="_blank" rel="noopener" aria-label="Google"><svg viewBox="0 0 24 24"><path d="M21.6 12.2c0-.7-.1-1.4-.2-2H12v3.8h5.4a4.6 4.6 0 0 1-2 3v2.5h3.2c1.9-1.7 3-4.3 3-7.3zM12 22c2.7 0 5-.9 6.6-2.4l-3.2-2.5c-.9.6-2 1-3.4 1-2.6 0-4.8-1.8-5.6-4.1H3.1v2.6A10 10 0 0 0 12 22zM6.4 14a6 6 0 0 1 0-3.9V7.5H3.1a10 10 0 0 0 0 9.1L6.4 14zM12 6c1.5 0 2.8.5 3.8 1.5l2.9-2.9A10 10 0 0 0 3.1 7.5L6.4 10C7.2 7.7 9.4 6 12 6z"/></svg></a>
+        </div>
+      </div>
+      <div>
+        <h3 data-i18n="ft_reach">How to reach us</h3>
+        <ul>
+          <li><a data-link="maps" target="_blank" rel="noopener">1477 W Landstreet Rd Ste B<br>Orlando, FL 32824</a></li>
+          <li><span data-i18n="u_sales">SALES:</span> <a data-tel><span data-phone-text>(786) 548-8238</span></a></li>
+          <li><a data-email>ccsventascars@gmail.com</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 data-i18n="ft_hours">Store hours</h3>
+        <table class="hrs" id="hrsFoot"></table>
+      </div>
+      <div>
+        <h3 data-i18n="ft_explore">Explore</h3>
+        <ul>
+          <li><a data-link="inventory" data-i18n="n_preowned">Pre-Owned Vehicles</a></li>
+          <li><a data-link="carFinder" data-i18n="n_finder">Car Finder</a></li>
+          <li><a data-link="applyOnline" data-i18n="n_apply">Apply Online</a></li>
+          <li><a data-link="warranty" data-i18n="n_war">Warranty</a></li>
+          <li><a data-link="about" data-i18n="n_about">About Us</a></li>
+          <li><a data-link="testimonials" data-i18n="n_testi">Testimonials</a></li>
+          <li><a data-link="contact" data-i18n="n_contact">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="base">
+      <div class="row">
+        <span>© <span id="yr">2026</span> CCS Ventas Cars LLC. <span data-i18n="ft_rights">All rights reserved.</span></span>
+        <span><a href="/privacy-policy.html" data-i18n="ft_priv">Privacy Policy</a> &nbsp;·&nbsp; <a href="/terms-of-service.html" data-i18n="ft_terms">Terms of Service</a></span>
+      </div>
+      <p class="sms" data-i18n="ft_sms">By providing your phone number you agree to receive text messages from CCS Ventas Cars LLC. Message frequency varies. Message and data rates may apply. Reply STOP to opt out or HELP for help. Consent is not a condition of purchase. No mobile information will be shared with third parties or affiliates for marketing or promotional purposes.</p>
+    </div>
+  </div>
+</footer>
+
+<!-- ================= STICKY MOBILE BAR ================= -->
+<nav class="mbar" id="mbar" aria-label="Quick actions">
+  <a class="pri" data-tel data-track="call_mobilebar"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg><span data-i18n="c_call">Call</span></a>
+  <a data-sms data-track="text_mobilebar"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg><span data-i18n="c_text">Text</span></a>
+  <a id="waBtn" data-track="whatsapp_mobilebar" hidden target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.3 14.1c-.2.6-1.3 1.2-1.8 1.3-.5.1-1 .1-3.3-.8-2.8-1.1-4.5-3.9-4.7-4.1-.1-.2-1.1-1.5-1.1-2.9s.7-2 1-2.3c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.2.1.4 0 .5l-.4.6-.3.4c-.1.1-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.4 2.4 1.5.3.1.5.1.6-.1l.8-1c.2-.3.4-.2.7-.1l2 .9c.3.1.5.2.5.3.1.2.1.7-.1 1.3z"/></svg><span>WhatsApp</span></a>
+  <a data-link="maps" target="_blank" rel="noopener" data-track="directions_mobilebar"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s-8-4.5-8-11.8A8 8 0 0 1 12 2a8 8 0 0 1 8 8.2C20 17.5 12 22 12 22z"/><circle cx="12" cy="10" r="3"/></svg><span data-i18n="c_dir2">Directions</span></a>
+</nav>
+
+<script>
+/* =====================================================================
+   DEALER CONFIG — single source of truth. Swap this object to re-brand.
+   Every URL below was pulled from the live DealerCenter site on
+   2026-10-13 unless marked TODO.
+   ===================================================================== */
+const CONFIG = {
+  dealer: "CCS Ventas Cars LLC",
+  phone: "+17865488238",
+  phoneDisplay: "(786) 548-8238",
+  smsNumber: "+17865488238",            // TODO: confirm this line can receive texts
+  whatsapp: "",                          // TODO: e.g. "17865488238" once dealer confirms WhatsApp. Empty = hidden.
+  email: "ccsventascars@gmail.com",
+  timezone: "America/New_York",
+  logo: "/logo.jpg",                     // self-hosted copy of the DealerCenter logo (black background JPG, 298×186)
+  heroImage: "/hero.jpg",                // Dealer's own homepage slider (s1.jpg), white swoosh repainted dark. Swap for a real lot/building photo when available. Empty = typographic hero.
+  gtmId: "",                             // TODO: e.g. "GTM-XXXXXXX". Empty = no GTM.
+  leadEndpoint: "/api/lead",            // Vercel function → forwards to GHL webhook (env GHL_WEBHOOK_URL)
+  links: {
+    home:          "https://www.ccsventascars.com/",
+    inventory:     "https://www.ccsventascars.com/inventory/",
+    carFinder:     "https://www.ccsventascars.com/car-finder/",
+    applyOnline:   "https://www.ccsventascars.com/apply-online/",
+    warranty:      "https://www.ccsventascars.com/warranty/",
+    about:         "https://www.ccsventascars.com/about-us/",
+    testimonials:  "https://www.ccsventascars.com/testimonial/",
+    contact:       "https://www.ccsventascars.com/contact-us/",
+    privacyDC:     "https://www.ccsventascars.com/privacy-policy/",
+    facebook:      "https://www.facebook.com/ccsventascars/",  // fixed: DealerCenter site has a doubled URL here. Verified 200 "Ccsventascars | Orlando FL" 2026-10-13
+    instagram:     "https://www.instagram.com/ccsventascars/",
+    maps:          "https://www.google.com/maps/search/?api=1&query=CCS+Ventas+Cars+LLC%2C+1477+W+Landstreet+Rd+Ste+B%2C+Orlando%2C+FL+32824&query_place_id=ChIJEdHMZbd954gROQlz3H34FLw",
+    googleReviews: "https://search.google.com/local/reviews?placeid=ChIJEdHMZbd954gROQlz3H34FLw",  // place ID = dealer's GBP (feature 0x88e77db765ccd111:0xbc14f87ddc730939); goo.gl short links are being retired
+    writeReview:   "https://search.google.com/local/writereview?placeid=ChIJEdHMZbd954gROQlz3H34FLw"
+  },
+  mapEmbed: "https://maps.google.com/maps?q=1477+W+Landstreet+Rd+Ste+B,+Orlando,+FL+32824&z=15&output=embed",
+  // Price-band links use ?price_min=&price_max= — the exact params DealerCenter's own
+  // "Shop by price" widget (dc_async_shop_by_price.min.js) builds for /inventory/. Verified 2026-10-13.
+  priceBands: [
+    { label: { en: "Under $8K", es: "Menos de $8K" }, sub: { en: "Budget-friendly, ready to drive", es: "Económicos y listos para manejar" }, min: 0,     max: 8000 },
+    { label: { en: "$8K – $12K", es: "$8K – $12K" }, sub: { en: "The sweet spot for daily drivers", es: "El punto ideal para el día a día" }, min: 8000,  max: 12000 },
+    { label: { en: "$12K+", es: "$12K+" }, sub: { en: "More room, more options",          es: "Más espacio, más opciones" },        min: 12000, max: 50000 }
+  ],
+  // Featured vehicles. Section stays hidden while empty. Fill ONLY from live listings
+  // (exact year/make/model, price, miles, VDP URL, photo). Re-check weekly; sold cars go dead.
+  vehicles: [
+    // { title: "2015 Jeep Wrangler Sport", price: "$13,398", specs: "112,000 mi · 4WD · Automatic", url: "https://www.ccsventascars.com/...VDP...", img: "https://..." }
+  ],
+  // Testimonials copied verbatim from https://www.ccsventascars.com/testimonial/ (2026-10-13).
+  testimonials: [
+    { name: "Brandy Torres", text: "Everything was so great and well explained, loved the service Melva gave me" },
+    { name: "Mike Red",      text: "José was so helpful in tailoring down our needs and the process was smooth in the purchase. Best dealer in Orlando" },
+    { name: "Alpha F",       text: "They were a pleasure to work with. Replied pretty quick when I reached out, were clean and respectful, and overall a good experience. I would honestly recommend." },
+    { name: "Jose Pino",     text: "Excellent people, super friendly, super reliable. My car is as is, they sold it to me wonderfully, 1000% truly recommended. Visit them and you will leave with a car and very satisfied." },
+    { name: "Julio Acuña",   text: "Excellent service. The best dealer in orlando" }
+  ],
+  // Leave null until the number and count are verified on the live Google Business Profile.
+  rating: null,   // e.g. { value: "5.0", count: 12, source: "Google" }
+  // 0 = Sunday. Times are 24h, dealer local time.
+  hours: [
+    null,
+    ["10:00","18:00"], ["10:00","18:00"], ["10:00","18:00"],
+    ["09:00","18:00"], ["10:00","18:00"], ["10:00","17:00"]
+  ]
+};
+
+/* =====================================================================
+   SPANISH COPY — written for Orlando's Latino buyers, not machine output.
+   English lives in the HTML; this swaps it.
+   ===================================================================== */
+const ES = {
+  u_sales:"VENTAS:", n_inv:"Inventario", n_finder:"Buscador de autos", n_fin:"Financiamiento", n_trade:"Trade-in", n_war:"Garantía",
+  n_about:"Nosotros", n_rev:"Reseñas", n_contact:"Contacto", n_preowned:"Autos usados", n_apply:"Aplicar en línea", n_testi:"Testimonios",
+  c_call:"Llamar", c_text:"Texto", c_dir:"Cómo llegar", c_dir2:"Cómo llegar", c_inv:"Ver inventario", c_invall:"Ver todo el inventario",
+  c_fin:"Empieza con el financiamiento", c_ask:"Pregunta por la cobertura",
+  h_kick:"Orlando · W Landstreet Rd · Hablamos Español",
+  h_title:"Tu próximo carro, <em>sin rodeos.</em>",
+  h_sub:"Carros, trocas y SUVs usados de calidad, con opciones de financiamiento y planes de garantía GWC. Habla con nosotros en español o en inglés, como te sientas en casa.",
+  qs_t:"Busca por presupuesto", qs_s:"Ve directo a los carros en tu rango de precio.", qs_f:"¿No lo encuentras? Buscador de autos →", qs_all:"Todos los carros →",
+  p1:"Español e inglés", p1s:"Bilingües de principio a fin", p2:"Opciones de financiamiento", p2s:"Aplica en línea en minutos",
+  p3:"Garantías GWC", p3s:"Cobertura que puedes agregar", p4:"Abierto 6 días", p4s:"Lunes a sábado en Landstreet Rd",
+  e1:"Del lote", s1_t:"Un vistazo a lo que hay en el lote.", s1_s:"El inventario cambia cada semana. Cada carro te lleva a su página con el precio y las fotos actuales.",
+  e2:"Por qué CCS Ventas", s2_t:"Lote pequeño. Respuestas claras.",
+  w1_t:"Hablamos español", w1_p:"Haz todas tus preguntas en tu idioma. Te explicamos papeles, financiamiento y garantía con claridad, sin adivinar.",
+  w2_t:"Opciones de financiamiento", w2_p:"Trabajamos con opciones de financiamiento para distintos presupuestos. Empieza en línea y te llamamos para explicarte todo.",
+  w3_t:"Planes de garantía GWC", w3_p:"Protege los vehículos elegibles, desde los componentes principales hasta cobertura comparable a la garantía de fábrica.",
+  w4_t:"Buscador de autos", w4_p:"¿No ves el carro que quieres? Dinos el modelo y tu presupuesto, y lo buscamos en nuestra red de dealers.",
+  e3:"Cómo funciona", s3_t:"Cuatro pasos hasta tus llaves.",
+  st1_t:"Escoge tu carro", st1_p:"Busca en línea o usa el Buscador de autos. Guarda los que te gusten.",
+  st2_t:"Ven a verlo", st2_p:"Pruébalo en nuestro local de Landstreet Rd. Llama antes y lo tenemos listo.",
+  st3_t:"Arregla los números", st3_p:"Financiamiento, trade-in y garantía, explicados en español o inglés.",
+  st4_t:"Maneja a casa", st4_p:"Firmas, recibes tus llaves y listo. Después de la venta seguimos a una llamada.",
+  e4:"Trade-in", t_t:"¿Tienes un carro para dar en trade? Empieza aquí.", t_s:"Mándanos los datos básicos y te contactamos sobre tu trade. Toma como un minuto.",
+  t_b1:"Úsalo para tu próximo carro de nuestro lote", t_b2:"Oferta final después de ver el carro en persona", t_b3:"En español o inglés, como prefieras", t_btn:"Enviar mi trade-in",
+  f_year:"Año", f_make:"Marca", f_model:"Modelo", f_miles:"Millaje", f_name:"Nombre completo", f_phone:"Teléfono", f_req:"Requerido",
+  f_phone_err:"Escribe un número de teléfono válido", f_first:"Nombre", f_last:"Apellido", f_email:"Email (opcional)", f_down:"Pago inicial (down payment)",
+  f_lang:"Idioma preferido", f_car:"Carro que te interesa (opcional)", o_sel:"Selecciona…", o_d1:"Menos de $1,000", o_d4:"$5,000 o más", o_ns:"Todavía no sé",
+  d_t:"¡Listo, gracias!", d_p:"Alguien de nuestro equipo te va a contactar pronto. Si es urgente, llámanos.", d_p2:"Te llamamos pronto. ¿Quieres seguir?", d_cont:"Continuar con la aplicación completa ↗",
+  e5:"Garantía", wa_t:"Sal manejando protegido.", wa_s:"Ofrecemos planes de GWC Warranty, desde cobertura básica de los componentes más caros del vehículo hasta planes completos comparables a la garantía de fábrica.",
+  wa_more:"Detalles de la garantía ↗", wa1_tag:"Máxima protección", wa1_t:"Cobertura de exclusiones", wa1_p:"Cubre tanto que es más fácil decir lo que no cubre. Incluye todo lo que cubriría la garantía básica de fábrica, excepto las piezas listadas en la sección “Exclusiones de cobertura” de tu contrato.",
+  wa2_tag:"Protección específica", wa2_t:"Cobertura de componentes especificados", wa2_p:"Cubre las piezas y sistemas listados en tu contrato. Si falla un componente cubierto, el plan paga piezas y mano de obra para que vuelvas a la calle rápido.",
+  wa_ask:"La cobertura, los términos y la elegibilidad dependen del vehículo y del plan. Pregúntanos qué planes aplican al carro que te gusta.",
+  e6:"Lo que dicen nuestros clientes", r_t:"Pregunta por Melva o José.", r_s:"Palabras reales de clientes reales, de nuestras reseñas públicas.",
+  r_more:"Ver más reseñas en Google ↗", r_write:"¿Nos compraste? Déjanos una reseña",
+  e7:"Financiamiento", f_t:"Empieza tu financiamiento en 60 segundos.", f_s:"Dinos cómo contactarte y qué estás buscando. Te llamamos para explicarte tus opciones y luego completas la aplicación cuando estés listo.",
+  fp1_t:"Envía el formulario corto", fp1_p:"Nombre, teléfono y tu presupuesto. Aquí no pedimos Seguro Social.", fp2_t:"Te llamamos", fp2_p:"En español o inglés, en horario de oficina.",
+  fp3_t:"Completa la aplicación segura", fp3_p:"Llena la aplicación de crédito completa cuando estés listo.", f_full:"¿Listo ya? Ve a la aplicación de crédito completa ↗", f_btn:"Quiero que me llamen",
+  e8:"Bueno saber", q_t:"Preguntas, respondidas.",
+  q1:"¿Hablan español?", a1:"Sí. Puedes hacer preguntas, revisar papeles y hablar de financiamiento y garantías en español o inglés.",
+  q2:"¿Ofrecen financiamiento?", a2:"Sí, ofrecemos opciones de financiamiento. Envía el formulario corto y te llamamos, o ve directo a nuestra aplicación de crédito en línea.",
+  q3:"¿Puedo dar mi carro actual en trade?", a3:"Sí. Mándanos el año, marca, modelo y millaje en el formulario de trade-in. El valor final se confirma cuando vemos el vehículo en persona.",
+  q4:"¿Sus carros tienen garantía?", a4:"Ofrecemos planes de GWC Warranty que puedes agregar a vehículos elegibles. La cobertura y los términos dependen del vehículo y del plan, así que pregúntanos cuáles aplican al carro que te gusta.",
+  q5:"¿Y si no encuentro el carro que quiero?", a5:"Usa el Buscador de autos. Dinos la marca, el modelo y el presupuesto, y te avisamos cuando encontremos uno.",
+  q6:"¿Abren los domingos?", a6:"Los domingos cerramos. Igual puedes enviar una solicitud de financiamiento o trade-in a cualquier hora y te llamamos el siguiente día hábil.",
+  q7:"¿Cómo los encuentro?", a7:"Estamos en 1477 W Landstreet Rd, Suite B, Orlando, FL 32824. En el edificio hay varios dealers, así que busca la Suite B. Toca “Cómo llegar” para abrir el mapa.",
+  e9:"Visítanos", v_t:"Ven a ver los carros.", v_addr:"Dirección", v_ph:"Ventas", v_hrs:"Horario",
+  v_closed:"Ahora estamos cerrados. Envía una solicitud arriba y te llamamos en cuanto abramos.",
+  fc_t:"Tu próximo carro está a una llamada.", fc_s:"Mira el lote, empieza tu financiamiento o simplemente llámanos. En español o inglés.",
+  ft_blurb:"Vehículos usados de calidad en W Landstreet Rd en Orlando, con opciones de financiamiento y planes de garantía GWC. Hablamos español.",
+  ft_reach:"Cómo contactarnos", ft_hours:"Horario", ft_explore:"Explorar", ft_rights:"Todos los derechos reservados.", ft_priv:"Política de privacidad", ft_terms:"Términos de servicio",
+  ft_sms:"Al proporcionar tu número de teléfono aceptas recibir mensajes de texto de CCS Ventas Cars LLC. La frecuencia de los mensajes varía. Pueden aplicar tarifas de mensajes y datos. Responde STOP para cancelar o HELP para ayuda. El consentimiento no es una condición de compra. No compartiremos información móvil con terceros ni afiliados para fines de marketing o promocionales."
+};
+
+/* SMS consent — two separate, UNCHECKED boxes (A2P / TCR). Do not pre-check. Do not merge. */
+const CONSENT = {
+  en: {
+    mk: "I agree to receive marketing text messages from CCS Ventas Cars LLC at the phone number provided. Message frequency varies. Message and data rates may apply. Reply STOP to opt out or HELP for help. Consent is not a condition of purchase.",
+    tx: "I agree to receive non-marketing text messages from CCS Ventas Cars LLC about my inquiry, such as appointment and application updates. Message frequency varies. Message and data rates may apply. Reply STOP to opt out or HELP for help.",
+    fine: 'By submitting, you agree to our <a href="/privacy-policy.html">Privacy Policy</a> and <a href="/terms-of-service.html">Terms of Service</a>. We will contact you about your request by phone or email even if you do not check the boxes.',
+    dow: ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"], closed: "Closed",
+    openNow: "Open now · until", closedNow: "Closed · opens", sending: "Sending…",
+    fail: "We couldn't send that. Please call us at"
+  },
+  es: {
+    mk: "Acepto recibir mensajes de texto de marketing de CCS Ventas Cars LLC al número de teléfono proporcionado. La frecuencia varía. Pueden aplicar tarifas de mensajes y datos. Responde STOP para cancelar o HELP para ayuda. El consentimiento no es una condición de compra.",
+    tx: "Acepto recibir mensajes de texto informativos (no de marketing) de CCS Ventas Cars LLC sobre mi solicitud, como citas y actualizaciones de mi aplicación. La frecuencia varía. Pueden aplicar tarifas de mensajes y datos. Responde STOP para cancelar o HELP para ayuda.",
+    fine: 'Al enviar, aceptas nuestra <a href="/privacy-policy.html">Política de privacidad</a> y <a href="/terms-of-service.html">Términos de servicio</a>. Te contactaremos sobre tu solicitud por teléfono o email aunque no marques las casillas.',
+    dow: ["Dom","Lun","Mar","Mié","Jue","Vie","Sáb"], closed: "Cerrado",
+    openNow: "Abierto · hasta", closedNow: "Cerrado · abre", sending: "Enviando…",
+    fail: "No pudimos enviarlo. Llámanos al"
+  }
+};
+
+(function(){
+  const $ = (s,r=document)=>r.querySelector(s), $$ = (s,r=document)=>[...r.querySelectorAll(s)];
+  const store = { get(k){try{return localStorage.getItem(k)}catch(e){return null}}, set(k,v){try{localStorage.setItem(k,v)}catch(e){}} };
+  window.dataLayer = window.dataLayer || [];
+  const track = (event, extra={}) => window.dataLayer.push({ event, ...extra });
+
+  /* --- GTM (only if configured) --- */
+  if (CONFIG.gtmId) {
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});
+      const f=d.getElementsByTagName(s)[0],j=d.createElement(s);j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer',CONFIG.gtmId);
+  }
+
+  /* --- links, phones, logo, map --- */
+  $$('[data-link]').forEach(a=>{
+    const u = CONFIG.links[a.dataset.link]; if(!u) return;
+    a.href = u;
+    if (/^https?:/.test(u) && !a.target && !u.startsWith(location.origin)) { a.rel = "noopener"; }
+  });
+  $$('[data-tel]').forEach(a=>{ a.href = 'tel:'+CONFIG.phone; if(!a.dataset.track) a.dataset.track='call_click'; });
+  $$('[data-sms]').forEach(a=>{ a.href = 'sms:'+CONFIG.smsNumber; });
+  $$('[data-email]').forEach(a=>{ a.href = 'mailto:'+CONFIG.email; a.textContent = CONFIG.email; });
+  $$('[data-phone-text]').forEach(s=> s.textContent = CONFIG.phoneDisplay);
+  $('#logo').src = CONFIG.logo; $('#logoFoot').src = CONFIG.logo;
+  $('#map').src = CONFIG.mapEmbed;
+  $('#yr').textContent = new Date().getFullYear();
+  if (CONFIG.heroImage) { const h=$('#heroImg'); h.src=CONFIG.heroImage; h.hidden=false; $('.hero').classList.add('has-img'); }
+  if (CONFIG.whatsapp) { const w=$('#waBtn'); w.href='https://wa.me/'+CONFIG.whatsapp; w.hidden=false; $('#mbar').style.setProperty('--cols',4); }
+
+  /* --- click tracking --- */
+  document.addEventListener('click', e=>{
+    const a = e.target.closest('[data-track]'); if(!a) return;
+    track('cta_click', { cta_id: a.dataset.track, cta_href: a.getAttribute('href')||'' });
+    if ((a.getAttribute('href')||'').startsWith('tel:')) track('phone_click', { cta_id: a.dataset.track });
+  });
+
+  /* --- drawer --- */
+  const drawer=$('#drawer'), burger=$('#burger');
+  const setDrawer = open => { drawer.classList.toggle('open',open); burger.setAttribute('aria-expanded',open); document.body.style.overflow = open?'hidden':''; };
+  burger.addEventListener('click',()=>setDrawer(true));
+  $('#drawerClose').addEventListener('click',()=>setDrawer(false));
+  drawer.addEventListener('click',e=>{ if(e.target.closest('a')) setDrawer(false); });
+  document.addEventListener('keydown',e=>{ if(e.key==='Escape') setDrawer(false); });
+
+  /* --- i18n --- */
+  $$('[data-i18n]').forEach(el=> el.dataset.en = el.innerHTML);
+  let lang = 'en';
+  function renderDynamic(){
+    const L = CONSENT[lang];
+    const bandUrl = b => CONFIG.links.inventory + '?price_min=' + b.min + '&price_max=' + b.max;
+    const arrow = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>';
+    $('#heroBands').innerHTML = CONFIG.priceBands.map(b=>`<a class="band" href="${bandUrl(b)}" data-track="band_hero_${b.max}"><span><strong>${b.label[lang]}</strong><br><span>${b.sub[lang]}</span></span>${arrow}</a>`).join('');
+    $('#tiles').innerHTML = CONFIG.priceBands.map(b=>`<a class="tile rv in" href="${bandUrl(b)}" data-track="band_tile_${b.max}"><strong>${b.label[lang]}</strong><span>${b.sub[lang]} →</span></a>`).join('');
+    // hours tables
+    const order=[1,2,3,4,5,6,0], today = nowLocal().dow;
+    const rows = order.map(d=>{ const h=CONFIG.hours[d]; return `<tr${d===today?' class="today"':''}><td>${L.dow[d]}</td><td>${h?fmt(h[0])+' – '+fmt(h[1]):L.closed}</td></tr>`; }).join('');
+    $('#hrsVisit').innerHTML = rows; $('#hrsFoot').innerHTML = rows;
+    // consent blocks
+    $$('.sms-consent').forEach((box,i)=>{
+      const prev = box.querySelectorAll('input'); const st=[prev[0]?.checked||false, prev[1]?.checked||false];
+      box.innerHTML = `<label class="consent"><input type="checkbox" name="sms_consent_marketing" value="yes"${st[0]?' checked':''}><span>${L.mk}</span></label>
+        <label class="consent"><input type="checkbox" name="sms_consent_transactional" value="yes"${st[1]?' checked':''}><span>${L.tx}</span></label>
+        <p class="fine">${L.fine}</p>`;
+    });
+    updateStatus();
+  }
+  function setLang(l){
+    lang = l; document.documentElement.lang = l; store.set('ccs_lang', l);
+    $$('[data-i18n]').forEach(el=>{ const k=el.dataset.i18n; el.innerHTML = (l==='es' && ES[k]) ? ES[k] : el.dataset.en; });
+    $$('.lang button').forEach(b=> b.setAttribute('aria-pressed', b.dataset.lang===l));
+    const fl = $('#fi_lang'); if (fl) fl.value = l;
+    renderDynamic();
+    track('language_set', { language: l });
+  }
+  $$('.lang button').forEach(b=> b.addEventListener('click',()=>setLang(b.dataset.lang)));
+
+  /* --- hours / open-now (dealer local time) --- */
+  function nowLocal(){
+    const p = new Intl.DateTimeFormat('en-US',{timeZone:CONFIG.timezone,weekday:'short',hour:'2-digit',minute:'2-digit',hour12:false}).formatToParts(new Date());
+    const g = t => p.find(x=>x.type===t).value;
+    return { dow:["Sun","Mon","Tue","Wed","Thu","Fri","Sat"].indexOf(g('weekday')), min: (parseInt(g('hour'),10)%24)*60 + parseInt(g('minute'),10) };
+  }
+  const toMin = s => { const [h,m]=s.split(':').map(Number); return h*60+m; };
+  function fmt(s){ const [h,m]=s.split(':').map(Number); if(lang==='es') return `${h}:${String(m).padStart(2,'0')}`; const ap=h>=12?'PM':'AM'; return `${((h+11)%12)+1}${m?':'+String(m).padStart(2,'0'):''} ${ap}`; }
+  function updateStatus(){
+    const L = CONSENT[lang], n = nowLocal(), h = CONFIG.hours[n.dow];
+    const open = h && n.min >= toMin(h[0]) && n.min < toMin(h[1]);
+    let txt;
+    if (open) txt = `${L.openNow} ${fmt(h[1])}`;
+    else {
+      let d = n.dow, i = 0;
+      if (h && n.min < toMin(h[0])) { txt = `${L.closedNow} ${fmt(h[0])}`; }
+      else { do { d=(d+1)%7; i++; } while(!CONFIG.hours[d] && i<7); txt = `${L.closedNow} ${L.dow[d]} ${fmt(CONFIG.hours[d][0])}`; }
+    }
+    $('#status').classList.toggle('open', !!open);
+    $('#statusText').textContent = txt;
+    $('#afterHours').hidden = !!open;
+  }
+  setInterval(updateStatus, 60000);
+
+  /* --- featured vehicles + testimonials + rating --- */
+  const esc = s => String(s).replace(/[&<>"]/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+  if (CONFIG.vehicles.length) {
+    const c = $('#cars'); c.hidden = false;
+    c.innerHTML = CONFIG.vehicles.slice(0,4).map((v,i)=>`<a class="car" href="${esc(v.url)}" target="_blank" rel="noopener" data-track="vehicle_card_${i+1}">
+      <div class="ph"><img src="${esc(v.img)}" alt="${esc(v.title)}, ${esc(v.price)}, CCS Ventas Cars, Orlando FL" loading="lazy" width="400" height="300"></div>
+      <div class="bd"><h3>${esc(v.title)}</h3><div class="pr">${esc(v.price)}</div><div class="sp">${esc(v.specs)}</div><span class="go">View details ↗</span></div></a>`).join('');
+  }
+  const initials = n => n.split(/\s+/).map(w=>w[0]).slice(0,2).join('').toUpperCase();
+  $('#revs').innerHTML = CONFIG.testimonials.map(t=>`<figure class="rev rv"><blockquote>${esc(t.text)}</blockquote>
+    <figcaption class="who"><span class="av" aria-hidden="true">${esc(initials(t.name))}</span><span><b>${esc(t.name)}</b><small>Customer review</small></span></figcaption></figure>`).join('');
+  if (CONFIG.rating) {
+    const r=$('#ratingBadge'); r.hidden=false;
+    r.innerHTML = `<a class="btn btn-ghost" href="${CONFIG.links.googleReviews}" target="_blank" rel="noopener">★ ${esc(CONFIG.rating.value)} · ${esc(CONFIG.rating.count)} ${esc(CONFIG.rating.source)} reviews</a>`;
+  }
+
+  /* --- lead forms --- */
+  $$('.lead-form').forEach(form=>{
+    let started=false;
+    form.addEventListener('input',()=>{ if(!started){ started=true; track('form_start',{form_id:form.dataset.form}); } }, {once:false});
+    form.addEventListener('submit', async e=>{
+      e.preventDefault();
+      let ok = true;
+      $$('.f', form).forEach(f=>{
+        const i = f.querySelector('input,select,textarea'); if(!i) return;
+        let bad = i.required && !i.value.trim();
+        if (i.type==='tel' && i.value.replace(/\D/g,'').length < 10) bad = true;
+        f.classList.toggle('bad', bad); if (bad) ok=false;
+      });
+      if (!ok) { const first = $('.f.bad input,.f.bad select', form); first && first.focus(); return; }
+      const data = Object.fromEntries(new FormData(form).entries());
+      if (!data.website) delete data.website;
+      data.sms_consent_marketing = data.sms_consent_marketing === 'yes';
+      data.sms_consent_transactional = data.sms_consent_transactional === 'yes';
+      const payload = { form_id: form.dataset.form, site_language: lang, page_url: location.href, submitted_at: new Date().toISOString(), dealer: CONFIG.dealer, ...data };
+      const btn = $('button[type=submit]', form), label = btn.innerHTML;
+      btn.disabled = true; btn.textContent = CONSENT[lang].sending;
+      try {
+        const res = await fetch(CONFIG.leadEndpoint, { method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify(payload) });
+        if (!res.ok) throw new Error('HTTP '+res.status);
+        form.classList.add('sent');
+        track('generate_lead', { form_id: form.dataset.form, language: lang });
+      } catch(err) {
+        // Never lose a lead silently: fall back to email with everything prefilled.
+        track('lead_submit_error', { form_id: form.dataset.form, error: String(err) });
+        const body = Object.entries(payload).map(([k,v])=>`${k}: ${v}`).join('\n');
+        alert(`${CONSENT[lang].fail} ${CONFIG.phoneDisplay}.`);
+        location.href = `mailto:${CONFIG.email}?subject=${encodeURIComponent('Website lead: '+form.dataset.form)}&body=${encodeURIComponent(body)}`;
+      } finally { btn.disabled=false; btn.innerHTML=label; }
+    });
+  });
+
+  /* --- reveal on scroll --- */
+  const io = 'IntersectionObserver' in window ? new IntersectionObserver(es=>es.forEach(x=>{ if(x.isIntersecting){ x.target.classList.add('in'); io.unobserve(x.target);} }),{rootMargin:'0px 0px -8% 0px'}) : null;
+  $$('.rv').forEach(el=> io ? io.observe(el) : el.classList.add('in'));
+
+  /* --- initial language: ?lang= > saved > browser --- */
+  const qp = new URLSearchParams(location.search).get('lang');
+  const initial = (qp==='es'||qp==='en') ? qp : location.pathname.startsWith('/es') ? 'es' : (store.get('ccs_lang') || ((navigator.language||'').toLowerCase().startsWith('es') ? 'es' : 'en'));
+  setLang(initial);
+})();
+</script>
+</body>
+</html>

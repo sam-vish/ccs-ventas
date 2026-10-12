@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+
+# SITEMAP: run `node scripts/set-domain.mjs <domain>` once the production domain is decided.
