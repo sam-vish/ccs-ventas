@@ -27,13 +27,10 @@ img{max-width:100%;display:block}
 a{color:inherit}
 .wrap{max-width:var(--wrap);margin:0 auto;padding:0 20px}
 :focus-visible{outline:3px solid var(--brand);outline-offset:3px;border-radius:4px}
-.util{background:var(--dark);color:var(--on-dark-muted);font-size:13.5px}
-.util .wrap{display:flex;align-items:center;gap:22px;min-height:42px;flex-wrap:wrap}
-.util a{text-decoration:none;color:var(--on-dark)}
-@media (max-width:640px){.util .addr{display:none}}
-.hdr{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.96);border-bottom:1px solid var(--line)}
-.hdr .wrap{display:flex;align-items:center;justify-content:space-between;gap:20px;min-height:76px}
-.logo img{height:58px;width:auto;border-radius:8px}
+.hdr{background:#000;border-top:3px solid #3C3C3C}
+.hdr .wrap{max-width:1170px;padding:0 15px;display:flex;align-items:center;justify-content:space-between;gap:20px;min-height:116px}
+.logo img{height:96px;width:auto}
+@media (max-width:480px){.hdr .wrap{min-height:90px}.logo img{height:70px}}
 .btn{display:inline-flex;align-items:center;gap:8px;min-height:46px;padding:0 20px;border-radius:999px;font:700 15px/1 var(--display);font-stretch:108%;text-decoration:none;background:var(--brand);color:var(--brand-ink);white-space:nowrap}
 .btn:hover{background:var(--brand-hover)}
 .doc{padding:72px 0 96px}
@@ -64,16 +61,9 @@ h2{font-size:clamp(22px,2.4vw,27px);font-weight:800;font-stretch:104%;margin:44p
 </head>
 <body>
 
-<div class="util">
-  <div class="wrap">
-    <span class="addr">1477 W Landstreet Rd Ste B, Orlando, FL 32824</span>
-    <span>SALES: <a href="tel:+17865488238">(786) 548-8238</a></span>
-  </div>
-</div>
-
 <header class="hdr">
   <div class="wrap">
-    <a class="logo" href="/" aria-label="CCS Ventas Cars home"><img src="/logo.jpg" alt="CCS Ventas Cars LLC" width="93" height="58"></a>
+    <a class="logo" href="/" aria-label="CCS Ventas Cars home"><img src="/logo.jpg" alt="CCS Ventas Cars LLC" width="154" height="96"></a>
     <a class="btn" href="/">← Back to site</a>
   </div>
 </header>
